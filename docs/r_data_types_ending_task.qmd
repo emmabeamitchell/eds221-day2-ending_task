@@ -28,5 +28,21 @@ vec_2 <- c(town = "Santa Barbara", location = "Rincon", swell = "south")
 vec_2
 class(vec_2)
 length(vec_2)
+v_2_2e <- vec_2["location"]
+v_2_2e
+```
+
+
+```{r}
+
+df_1 <- data.frame(type = c("A", "B", "A", "D"),
+                   species = c("otter", "great white", "sea lion", "gray whale"),
+                   count = c(12L, 2L, 36L, 6L))
+df_1                   
+class(df_1)
+class(df_1$species)
+max_count <- max(df_1$count)
+max_count
+
 ```
 
