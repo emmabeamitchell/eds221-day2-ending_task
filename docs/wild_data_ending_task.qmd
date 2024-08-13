@@ -1,28 +1,24 @@
 ---
-title: "Wild Data ending task"
-author: "Emma Bea"
+title: "Wild Data"
 format: html
 editor_options: 
   chunk_output_type: console
 execute: 
-  warning: FALSE
+  warning: false
   echo: false
-  message: false
 ---
-
-
 
 ```{r}
 library(tidyverse)
 library(here)
 library(janitor)
-
 ```
-
 
 ```{r}
 
-toolik_chlorophyll <- read_csv(here::here("data", "data-raw", "toolik_chlorophyll.csv"))
-salamander_data <- read_csv(here::here("eds 221","AS00601.csv"))
+mack_verts <- read_csv(here::here("data","AS00601.csv"))
+view(mack_verts)
+
+
 ```
 
